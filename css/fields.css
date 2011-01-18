@@ -1,0 +1,62 @@
+/**
+ * @file
+ * Field Styling
+ */
+
+
+/*
+ * Field types
+ */
+
+.field /* Wrapper for any CCK field. */ {
+}
+
+.field-type-datetime /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */ {
+}
+
+.field-type-filefield /* Field from filefield module */ {
+}
+
+.field-type-nodereference {
+}
+
+.field-type-number-decimal {
+}
+
+.field-type-number-float {
+}
+
+.field-type-number-integer {
+}
+
+.field-type-text {
+}
+
+.field-type-userreference {
+}
+
+.field-type-image .field-items {
+  margin-top: 1em;
+}
+
+.field-type-image .field-item {
+  display: inline;
+  margin-right: 1em;
+}
+
+
+/*
+ * Named fields
+ */
+
+.field-field-FIELDNAME /* Underscores in field name are replaced with dashes. */ {
+}
+
+
+
+.field-label-above .field-label {
+  background-color: #efd;
+  color: black;
+  padding: 2px 5px;
+  border-bottom: 1px green solid;
+}
